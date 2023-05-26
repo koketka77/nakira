@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.graham{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    border-radius: 15px;
+    /* padding: 0 auto; */
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+    row-gap: 10px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 20px;
+}
